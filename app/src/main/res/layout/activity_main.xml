@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanya.pathfinderstatsheet.MainActivity">
+
+    <ImageView
+        style="@style/background"
+        android:src="@drawable/splash_bg" />
+
+    <LinearLayout
+        style="@style/splash_style">
+
+        <Button
+            android:id="@+id/button_newchar"
+            style="@style/buttons"
+            android:text="@string/newcharacter" />
+
+        <Button
+            android:id="@+id/button_loadchar"
+            style="@style/buttons"
+            android:text="@string/loadcharacter" />
+
+    </LinearLayout>
+</RelativeLayout>

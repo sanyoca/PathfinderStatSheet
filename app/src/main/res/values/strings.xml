@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PathfinderStatSheet</string>
+    <string name="newcharacter">New character</string>
+    <string name="loadcharacter">Load character</string>
+    <string name="selectchar">Select a character to load</string>
+    <string name="nochartoload">You don\'t have any characters saved.</string>
+</resources>
