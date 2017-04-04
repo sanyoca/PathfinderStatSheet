@@ -12,4 +12,19 @@
         android:src="@drawable/splash_bg"
         android:scaleType="centerCrop"/>
 
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        app:tabTextColor="@color/pf_font_color"
+        app:tabSelectedTextColor="@color/pf_font_color"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+        app:tabBackground="@color/pf_font_bg"
+        app:tabIndicatorColor="@color/pf_font_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_below="@id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

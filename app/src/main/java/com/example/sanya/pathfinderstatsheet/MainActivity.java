@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_loadchar:
                 int intNumberOfCharacters = getSharedPreferences("characterlist", MODE_PRIVATE).getInt("numberofcharacters", 0);
                 if(intNumberOfCharacters == 0)  {
-                    Toast.makeText(this, getString(R.string.nochartoload), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, getString(R.string.nochartoload), Toast.LENGTH_LONG).show();
                 }   else    {
                     intent = new Intent(this, LoadCharacter.class);
                     startActivity(intent);

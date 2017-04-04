@@ -4,4 +4,12 @@
     <string name="loadcharacter">Load character</string>
     <string name="selectchar">Select a character to load</string>
     <string name="nochartoload">You don\'t have any characters saved.</string>
+    <string name="basicdatas">Basic datas</string>
+    <string name="charname">Character name:</string>
+    <string name="charrace">Character race:</string>
+    <string name="attributes">Attributes</string>
+    <string name="skills">Skills</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
