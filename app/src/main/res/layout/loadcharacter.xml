@@ -16,7 +16,7 @@
         android:text="@string/selectchar"/>
 
     <Spinner
-        style="@style/spinner_load_style"
+        style="@style/spinner_style"
         android:layout_below="@id/textview_selectload"
         android:id="@+id/spinner_characterstoload">
     </Spinner>

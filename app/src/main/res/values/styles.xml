@@ -16,6 +16,7 @@
 
     <style name="buttons">
         <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:layout_width">@dimen/splash_button_width</item>
         <item name="android:layout_height">wrap_content</item>
@@ -43,7 +44,7 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="spinnerstyle">
+    <style name="custom_spinnerstyle">
         <item name="android:paddingLeft">@dimen/spinner_horizontal_padding</item>
         <item name="android:paddingRight">@dimen/spinner_horizontal_padding</item>
         <item name="android:paddingTop">@dimen/spinner_vertical_padding</item>
@@ -55,10 +56,11 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="spinner_load_style">
+    <style name="spinner_style">
         <item name="android:textColor">@color/pf_font_color</item>
         <item name="android:background">@color/pf_font_bg</item>
         <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_width">@dimen/spinner_width</item>
         <item name="android:layout_height">wrap_content</item>

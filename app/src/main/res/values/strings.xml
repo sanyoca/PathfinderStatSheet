@@ -7,8 +7,33 @@
     <string name="basicdatas">Basic datas</string>
     <string name="charname">Character name:</string>
     <string name="charrace">Character race:</string>
+    <string-array name="races">
+        <item>Human</item>
+        <item>Gnome</item>
+        <item>Elf</item>
+        <item>Halfelf</item>
+        <item>Dwarf</item>
+        <item>Halforc</item>
+        <item>Halfling</item>
+        <item>Lizardman</item>
+    </string-array>
+    <string name="charclass">Character class:</string>
+    <string-array name="classes">
+        <item>Warrior</item>
+        <item>Cleric</item>
+        <item>Mage</item>
+        <item>Wizard</item>
+        <item>Sorcerer</item>
+        <item>Monk</item>
+        <item>Barbarian</item>
+        <item>Knight</item>
+        <item>Paladin</item>
+        <item>Rogue</item>
+        <item>Bard</item>
+    </string-array>
     <string name="attributes">Attributes</string>
     <string name="skills">Skills</string>
+    <string name="savechar">Save character</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
